@@ -30,24 +30,20 @@ public class EjercicioIf03 {
         if (numero2 > maximoTemporal) {
             // actualizo el valor de maximoTemporal con este número
             maximoTemporal = numero2;
-            System.out.println(maximoTemporal);
         } // si el segundo número no es mayor, pues no hago nada, por eso no pongo else
 
         // y así con los demás
         if (numero3 > maximoTemporal) {
             maximoTemporal = numero3;
-            System.out.println(maximoTemporal);
         }
 
 
         if (numero4 > maximoTemporal) {
             maximoTemporal = numero4;
-            System.out.println(maximoTemporal);
         }
 
         if (numero5 > maximoTemporal) {
             maximoTemporal = numero5;
-            System.out.println(maximoTemporal);
         }
 
         // cuando he terminado de comparar todos con el máximo temporal, en la variable maximoTemporal tengo guardado el mayor de todos
@@ -60,24 +56,20 @@ public class EjercicioIf03 {
         if (numero2 < minimoTemporal) {
             // actualizo el valor de minimoTemporal con este número
             minimoTemporal = numero2;
-            System.out.println(minimoTemporal);
         } // si el segundo número no es menor, pues no hago nada, por eso no pongo else
 
         // y así con los demás
         if (numero3 < minimoTemporal) {
             minimoTemporal = numero3;
-            System.out.println(minimoTemporal);
         }
 
 
         if (numero4 < minimoTemporal) {
             minimoTemporal = numero4;
-            System.out.println(minimoTemporal);
         }
 
         if (numero5 < minimoTemporal) {
             minimoTemporal = numero5;
-            System.out.println(minimoTemporal);
         }
 
         // cuando he terminado de comparar todos con el mínimo temporal, en la variable minimoTemporal tengo guardado el menor de todos
